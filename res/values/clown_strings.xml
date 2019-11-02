@@ -36,4 +36,8 @@
     <string name="clown_maintainer">Build Maintainer</string>
 
     <string name="radio_info_title">Radio info</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 </resources>
