@@ -34,4 +34,6 @@
 
     <!-- ClownUI Maintainer -->
     <string name="clown_maintainer">Build Maintainer</string>
+
+    <string name="radio_info_title">Radio info</string>
 </resources>
