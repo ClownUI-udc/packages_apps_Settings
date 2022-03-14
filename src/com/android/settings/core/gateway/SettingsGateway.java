@@ -192,6 +192,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -371,7 +373,14 @@ public class SettingsGateway {
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
+<<<<<<< HEAD
             RegionalPreferencesEntriesFragment.class.getName()
+=======
+            RegionalPreferencesEntriesFragment.class.getName(),
+            EvolutionSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
+>>>>>>> 63daacca36 (SoftAp: add client manager)
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
